@@ -1,0 +1,160 @@
+.container{
+    position:block;
+    display: block;
+    overflow: hidden;
+}
+
+nav{
+    text-align: right;
+    margin-top: 0%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+    margin-top: 20px;
+    position: relative;
+    z-index:1;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    color:#deb94b;
+    text-decoration: underline;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(65, 65, 65);
+    overflow-x: hidden;
+}
+
+.main{
+    position:fixed;
+    display: block;
+    width: 100%;
+    margin-top: -5%;
+    background-size: cover;
+}
+
+.lower{
+    position:absolute;
+    width: 100%;
+    margin-top: 36%;
+    z-index: 2;
+    background-size: cover;
+
+}
+
+.wings{
+    display: block;
+    position: absolute;
+    margin-left: 38%;
+    margin-right: auto;
+    top: 33%;
+    width: 28%;
+    z-index: 1;
+}
+
+.logoname{
+    position: absolute;
+    top: -20%;
+    margin-left: -227px;
+    width: 130%;
+}
+
+
+.about{
+    position: absolute;
+    display: block;
+    z-index: 3;
+    margin: 0;
+    top: 1100px;
+    margin-left: 200px;
+    margin-right: 650px;
+    color: #cc9900;
+}
+
+.box{
+    position: absolute;
+    display: contents;
+    z-index: 1;
+    margin: 0;
+    top: 50px;
+    color: beige;
+    text-align: justify;
+}
+
+
+.sec-image{
+    position: absolute;
+    width: 20%;
+    bottom: -700px;
+    left: 980px;
+    z-index: 3;
+}
+
+.text-holder{
+    position: absolute;
+    width: 42%;
+    right: 645px;
+    top:1168px;
+    z-index: 2;
+    opacity: 0.2;
+}
+
+.clouds{
+    position: absolute;
+    width: 90%;
+    left: 900px;
+    top: 800px;
+    z-index: 2;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #cc9900;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.footer{
+    position: absolute;
+    display: block;
+    z-index: 5;
+    font-size: 80%;
+    top: 1620px;
+    left: 620px;
+    color: #cc9900;
+    vertical-align: middle;
+}
+
+.ig{
+    position: absolute;
+    display: block;
+    z-index: 5;
+    font-size: 80%;
+    top: 1610px;
+    left: 718px;
+    color: #cc9900;
+    vertical-align: middle;
+}
