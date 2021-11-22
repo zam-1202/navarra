@@ -1,0 +1,72 @@
+@media screen and (max-width: 1080px) and (max-height:2400px){
+    .container{
+        width: 20%;
+        text-align: left;
+        font-size: 5px;
+        margin-left: 370px;
+        
+    }
+
+    .main{
+        width: 250%;
+        position:absolute;
+        top: 0px;
+        bottom: 0px;
+    }
+
+    .lower{
+        position:absolute;
+        width: 100%;
+        margin-top: 58%;
+        background-size: cover;
+    }
+    
+    .logoname{
+        top: 10%;
+        margin-left: -66px;
+        width: 130%
+    }
+
+    .wings{
+        margin-left: 38%;
+        margin-right: auto;
+        top: 27%;
+        width: 38%;
+    }
+
+    .about{
+        top: 479px;
+        margin-left: 50px;
+        margin-right: 650px;
+        width: 230px;
+        font-size: 10px;
+    }
+
+    .sec-image{
+        position: absolute;
+        width: 27%;
+        bottom: 45px;
+        left: 310px;
+    }
+
+    .ig{
+        top: 730px;
+        left: 50px;
+        max-width:10px;
+        max-height:10px;
+    }
+
+    .footer{
+        font-size: 60%;
+        top: 725px;
+        left: 83px;
+        vertical-align: middle;
+    }
+
+    .clouds{
+        position: absolute;
+        width: 90%;
+        left: 210px;
+        top: 500px;
+    }
+}

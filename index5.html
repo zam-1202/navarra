@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "description" content = "Personal Website">
+    <meta name = "keywords" content="HTML, CSS, NAVARRA, Art, Web Development">
+    <meta name = "author" content="Samuel Navarra Norte | BSIT 3-2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVARRA</title>
+    <link rel="stylesheet" href="film.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel = "icon" href = "img/navarra.ico" type = "image/x-icon" />
+    
+
+
+</head>
+<body>
+    
+    <div class = "container">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li> <a href = "index.html">Home </a></li>
+                    <li> <a href = "index2.html">About </a></li>
+                    <li> <a href = "index3.html">Achievements </a></li>
+                    <li> <a href = "index4.html">Gallery </a></li>
+                    <li> <a href = "index5.html">Films</a></li>
+                    <li> <a href = "index6.html">Facts </a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class = "container-two">
+        <div class = "row">
+            <div class = "col">
+                <div class = "small-img">
+                    <img src = "films/1.jpg">
+                    
+                </div>
+                <div class = "small-img">
+                    <img src = "films/2.jpg">
+                </div>
+                <div class = "small-img">
+                    <img src = "films/3.jpg">
+                </div>
+                <div class = "small-img">
+                    <img src = "films/4.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "button">
+        <img src = "img/play.png" class = "play-btn" onclick="playVideo('films/1.mp4')">
+        <img src = "img/play.png" class = "play-btn2" onclick="playVideo('films/2.mp4')">
+        <img src = "img/play.png" class = "play-btn3" onclick="playVideo('films/3.mp4')">
+        <img src = "img/play.png" class = "play-btn4" onclick="playVideo('films/4.mp4')">
+    </div>
+
+    <div class = "synopsis-one">
+        <h1> In a bedroom, Lena forces herself to open her photo album <br> to go back with her happy memories.</h1>
+    </div>
+
+    <div class = "synopsis-two">
+        <h1> A pupil was unable to submit the requirements needed,<br>  so he devised a solution to their difficulty.</h1>
+    </div>
+
+    <div class = "synopsis-three">
+        <h1> Will they uncover the missing Golden Bell from the<br> City of Cabuyao after more than a century of searching?</h1>
+    </div>
+
+    <div class = "synopsis-four">
+        <h1> A documentary unleashing five hotspots on<br> one of Laguna's wealthiest cities.</h1>
+    </div>
+    
+
+    <div class = "video-player" id = "videoPlayer">
+        <video width="100%" controls autoplay id = "myVideo">
+            <source src = "films/1.mp4" type = "video/mp4">
+        </video>
+        <img src = "img/close.png" class = "close-btn" onclick="stopVideo()">
+    </div>
+
+    <script>
+        var videoPlayer = document.getElementById("videoPlayer");
+        var myVideo = document.getElementById("myVideo");
+
+        function stopVideo(){
+           videoPlayer.style.display = "none";
+           myVideo.pause();
+        }
+
+        function playVideo(file){
+            myVideo.src = file;
+            videoPlayer.style.display = "block";
+        }
+    </script>
+
+<img class = "background" src = "img/galaxy-new.jpg">
+<img class = "holder" src = "img/dilaw.png">
+
+
+
+    
+</body>
+</html>
+
