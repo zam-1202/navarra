@@ -122,7 +122,7 @@ body, html{
 
 .b{
     position: absolute;
-    color: #ffffff;
+    color: #000000;
     z-index: 5;
     font-size: 20px;
     left: 580px;
