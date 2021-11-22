@@ -1,0 +1,255 @@
+.container{
+    position:block;
+    display: block;
+    overflow: hidden;
+}
+
+nav{
+    text-align: right;
+    margin-top: 0%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+    margin-top: 20px;
+    position: relative;
+    z-index:3;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    color:#deb94b;
+    text-decoration: underline;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(65, 65, 65);
+    overflow-x: hidden;
+}
+
+.background{
+    position:fixed;
+    display: block;
+    width: 100%;
+    margin-top: -10%;
+    background-size: cover;
+}
+
+.dp{
+    display: block;
+    position: absolute;
+    margin-left: 24%;
+    margin-right: auto;
+    top: 15%;
+    width: 50%;
+    z-index: 1;
+}
+
+.sam{
+    position: absolute;
+    font-size: 120px;
+    color: #cc9900;
+    z-index: 1;
+    left: 430px;
+    bottom: 290px;
+}
+
+.wave{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 400px;
+}
+
+.line{
+    position: absolute;
+    top: 800px;
+    left: 25px;
+    z-index: 2;
+}
+
+.hide {
+    display: none;
+  }
+
+.a:hover + .hide {
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    z-index: 3;
+    left: 60px;
+    top: 970px;
+    text-align: center;
+  }
+
+.a{
+    position: absolute;
+    color: #cc9900;
+    z-index: 3;
+    font-size: 20px;
+    left: 105px;
+    top: 940px;
+}
+
+.b:hover + .hide {
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    z-index: 3;
+    left: 200px;
+    top: 865px;
+    text-align: center;
+  }
+
+.b{
+    position: absolute;
+    color: #cc9900;
+    z-index: 3;
+    font-size: 20px;
+    left: 243px;
+    top: 890px;
+}
+
+.c:hover + .hide {
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    z-index: 3;
+    left: 380px;
+    top: 970px;
+    text-align: center;
+  }
+
+.c{
+    position: absolute;
+    color: #cc9900;
+    z-index: 3;
+    font-size: 20px;
+    left: 398px;
+    top: 940px;
+}
+
+.d:hover + .hide {
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    z-index: 3;
+    left: 468px;
+    top: 685px;
+    text-align: center;
+  }
+
+.d{
+    position: absolute;
+    color: #cc9900;
+    z-index: 3;
+    font-size: 20px;
+    left: 535px;
+    top: 890px;
+}
+
+.e:hover + .hide {
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    z-index: 3;
+    left: 590px;
+    top: 970px;
+    text-align: center;
+  }
+
+.e{
+    position: absolute;
+    color: #cc9900;
+    z-index: 3;
+    font-size: 20px;
+    left: 700px;
+    top: 940px;
+}
+
+.f:hover + .hide {
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    z-index: 3;
+    left: 770px;
+    top: 830px;
+    text-align: center;
+  }
+
+.f{
+    position: absolute;
+    color: #cc9900;
+    z-index: 3;
+    font-size: 20px;
+    left: 873px;
+    top: 890px;
+}
+
+.g:hover + .hide {
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    z-index: 3;
+    left: 910px;
+    top: 970px;
+    text-align: center;
+  }
+
+.g{
+    position: absolute;
+    color: #cc9900;
+    z-index: 3;
+    font-size: 20px;
+    left: 1008px;
+    top: 940px;
+}
+
+.h:hover + .hide {
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    z-index: 3;
+    left: 1060px;
+    top: 860px;
+    text-align: center;
+  }
+
+.h{
+    position: absolute;
+    color: #cc9900;
+    z-index: 3;
+    font-size: 20px;
+    left: 1150px;
+    top: 890px;
+}
+
+.i{
+    position: absolute;
+    color: #cc9900;
+    z-index: 3;
+    font-size: 20px;
+    left: 1270px;
+    top: 940px;
+}
+
