@@ -1,0 +1,175 @@
+.container{
+    position:block;
+    display: block;
+    overflow: hidden;
+}
+
+nav{
+    text-align: right;
+    margin-top: 0%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+    margin-top: 20px;
+    position: relative;
+    z-index:1;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    color:#deb94b;
+    text-decoration: underline;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.background{
+    position:fixed;
+    display: block;
+    width: 100%;
+    margin-top: -60%;
+    background-size: cover;
+    z-index: -5;
+}
+
+.holder{
+    position:fixed;
+    display: block;
+    width: 25%;
+    top: -20px;
+    left: 800px;
+}
+
+
+.container-two{
+    width: 80%;
+    margin:80px auto;
+    position:fixed;
+    z-index: 5;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+
+.small-img img{
+    position: relative;
+    display: flex;
+    margin: 7px;
+    width: 260px;
+    left: 840px;
+    top: -30px;
+    z-index: 4;
+}
+
+.play-btn{
+    width: 50px;
+    position: absolute;
+    cursor: pointer;
+    top: 180px;
+    right: 435px;
+    z-index: 5;
+}
+
+.play-btn2{
+    width: 50px;
+    position: absolute;
+    cursor: pointer;
+    top: 335px;
+    right: 435px;
+    z-index: 5;
+}
+
+.play-btn3{
+    width: 50px;
+    position: absolute;
+    cursor: pointer;
+    top: 485px;
+    right: 435px;
+    z-index: 5;
+}
+
+.play-btn4{
+    width: 50px;
+    position: absolute;
+    cursor: pointer;
+    top: 640px;
+    right: 435px;
+    z-index: 5;
+}
+
+.video-player{
+    width: 80%;    
+    position: fixed;
+    right: 150px;
+    bottom: 20px;
+    justify-content: center;
+    display: none;
+    z-index: 6;
+}
+
+.close-btn{
+    position: absolute;
+    width: 30px;
+    cursor:pointer;
+    top: -25px;
+    z-index: 8;
+}
+
+.synopsis-one{
+    font-size: 10px;
+    text-align:right;
+    display: flex;
+    margin-left: 170px;
+    margin-top: 80px;
+    
+}
+
+.synopsis-two{
+    font-size: 10px;
+    text-align:right;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 85px;
+    
+}
+
+.synopsis-three{
+    font-size: 10px;
+    text-align:right;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 90px;
+    
+}
+
+.synopsis-four{
+    font-size: 10px;
+    text-align:right;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 100px;
+    
+}
