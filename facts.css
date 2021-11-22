@@ -110,7 +110,7 @@ body, html{
 .b:hover + .hide {
     display: block;
     position: absolute;
-    color: #9b1b1b;
+    color: #131313;
     font-size: 15px;
     z-index: -1;
     left: 50px;
