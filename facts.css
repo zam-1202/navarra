@@ -1,0 +1,327 @@
+.container{
+    position:block;
+    display: block;
+    overflow: hidden;
+}
+
+nav{
+    text-align: right;
+    margin-top: 0%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+    margin-top: 20px;
+    position: relative;
+    z-index:1;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    color:#deb94b;
+    text-decoration: underline;
+}
+
+.background{
+    position:fixed;
+    display: block;
+    width: 120%;
+    margin-top: -80px;
+    margin-left: -20px;
+    background-size: cover;
+    z-index: -5;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    
+}
+
+.hide {
+    display: none;
+  }
+
+
+.S{
+    margin: 0;
+    display: block;
+    width: 50%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.tabletennis{
+    margin: 0;
+    display: block;
+    width: 15%;
+    position: absolute;
+    top: 25%;
+    left: 30.5%;
+    z-index: 1;
+}
+
+.a:hover + .hide {
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    z-index: -1;
+    left: 140px;
+    top: 250px;
+    text-align: left;
+    background-color: #c0453d;
+    padding: 4px;
+  }
+
+.a{
+    position: absolute;
+    color: #000000;
+    z-index: 3;
+    font-size: 20px;
+    left: 470px;
+    top: 240px;
+    opacity: 0;
+}
+
+.eagle{
+    margin: 0;
+    display: block;
+    width: 22%;
+    position: absolute;
+    top: 35%;
+    left: 34%;
+    z-index: 4;
+}
+
+.b:hover + .hide {
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    z-index: -1;
+    left: 50px;
+    top: 430px;
+    text-align: left;
+    background-color: #cbbe9b;
+    padding: 4px;
+  }
+
+.b{
+    position: absolute;
+    color: #ffffff;
+    z-index: 5;
+    font-size: 20px;
+    left: 580px;
+    top: 460px;
+    opacity: 0;
+}
+
+.camera{
+    margin: 0;
+    display: block;
+    width: 15%;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    z-index: 1;
+}
+
+.c:hover + .hide {
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    z-index: -1;
+    left: 50px;
+    top: 540px;
+    text-align: left;
+    background-color: black;
+    padding: 4px;
+  }
+
+.c{
+    position: absolute;
+    color: #ffffff;
+    z-index: 5;
+    font-size: 20px;
+    left: 550px;
+    top: 590px;
+    opacity: 0;
+}
+
+.news{
+    margin: 0;
+    display: block;
+    width: 15%;
+    position: absolute;
+    top: 17%;
+    left: 43.5%;
+    z-index: 1;
+}
+
+.d:hover + .hide {
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    z-index: -1;
+    left: 790px;
+    top: 160px;
+    text-align: right;
+    background-color: white;
+    padding: 4px;
+  }
+
+.d{
+    position: absolute;
+    color: #000000;
+    z-index: 3;
+    font-size: 20px;
+    left: 720px;
+    top: 200px;
+    opacity: 0;
+}
+
+.crown{
+    margin: 0;
+    display: block;
+    width: 18%;
+    position: absolute;
+    top: 11%;
+    left: 35%;
+    z-index: 3;
+}
+
+.e:hover + .hide {
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    z-index: -1;
+    left: 80px;
+    top: 130px;
+    text-align: left;
+    background-color: #e0b556;
+    padding: 4px;
+  }
+
+.e{
+    position: absolute;
+    color: #000000;
+    z-index: 3;
+    font-size: 20px;
+    left: 542px;
+    top: 200px;
+    opacity: 0;
+}
+
+
+.dancer{
+    margin: 0;
+    display: block;
+    width: 30%;
+    position: absolute;
+    top: 35.5%;
+    left: 43%;
+    z-index: 3;
+}
+
+.f:hover + .hide {
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    z-index: -1;
+    left: 900px;
+    top: 370px;
+    text-align: right;
+    background-color: #68905c;
+    padding: 4px;
+  }
+
+.f{
+    position: absolute;
+    color: #000000;
+    z-index: 3;
+    font-size: 20px;
+    left: 820px;
+    top: 400px;
+    opacity: 0;
+}
+
+.mountain{
+    margin: 0;
+    display: block;
+    width: 25%;
+    position: absolute;
+    top: 56%;
+    left: 43%;
+    z-index: 4;
+}
+
+.g:hover + .hide {
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    z-index: -1;
+    left: 900px;
+    top: 600px;
+    text-align: right;
+    background-color: #797047;
+    padding: 4px;
+  }
+
+.g{
+    position: absolute;
+    color: #000000;
+    z-index: 3;
+    font-size: 20px;
+    left: 780px;
+    top: 560px;
+    opacity: 0;
+    z-index: 4;
+}
+
+
+.tabletennis:hover{
+	-webkit-filter: drop-shadow(0px 0px 8px #ff3d2b);
+}
+
+.eagle:hover{
+	-webkit-filter: drop-shadow(0px 0px 8px #c8961e);
+}
+
+.news:hover{
+	-webkit-filter: drop-shadow(0px 0px 8px #f8f8f8);
+}
+
+.crown:hover{
+	-webkit-filter: drop-shadow(0px 0px 8px #e0b45a);
+}
+
+.dancer:hover{
+	-webkit-filter: drop-shadow(0px 0px 8px #8b98a7);
+}
+
+.camera:hover{
+	-webkit-filter: drop-shadow(0px 0px 8px #27262c);
+}
+
+.mountain:hover{ 
+	-webkit-filter: drop-shadow(0px 0px 8px #35530c);
+}
