@@ -110,13 +110,13 @@ body, html{
 .b:hover + .hide {
     display: block;
     position: absolute;
-    color: #000000;
+    color: #ffffff;
     font-size: 15px;
     z-index: -1;
     left: 50px;
     top: 430px;
     text-align: left;
-    background-color: #cbbe9b;
+    background-color: #64002a;
     padding: 4px;
   }
 
