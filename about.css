@@ -1,0 +1,92 @@
+.container{
+    position:block;
+    display: block;
+    overflow: hidden;
+}
+
+nav{
+    text-align: right;
+    margin-top: 0%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+    margin-top: 20px;
+    position: relative;
+    z-index:1;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    color:#deb94b;
+    text-decoration: underline;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(65, 65, 65);
+    overflow-x: hidden;
+}
+
+.background{
+    position:absolute;
+    display: block;
+    width: 100%;
+    margin-top: -10%;
+}
+
+.saturn{
+    position:absolute;
+    display: block;
+    width: 80%;
+    margin-top: -35%;
+    left: -440px;
+}
+
+.holder{
+    position:absolute;
+    display: block;
+    width: 100%;
+    margin-top: -10%;
+    left: -100px;
+}
+
+.footer-design{
+    position:absolute;
+    display: block;
+    width: 100%;
+    margin-top: -10%;
+    left: -100px;
+}
+
+.anecdote{
+    position: absolute;
+    color: #cc9900;
+    font-size: 35px;
+    left: 240px;
+    z-index: 2;
+}
+.new-box{
+    position: absolute;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    color: beige;
+    z-index: 2;
+    margin-left: 70px;
+    margin-right: 700px;
+    margin-top: 150px;
+}
+
